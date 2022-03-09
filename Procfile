@@ -1,0 +1,1 @@
+web: sh -c 'cd finallproject && gunicorn projectapp_c_.wsgi --log-file=-'
